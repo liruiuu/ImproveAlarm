@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClockActivity">
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0000"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="设置闹钟时间"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/set_repeat_alarm1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="设置重复上班闹钟：1"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Button android:id="@+id/button_repeat_alarm1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="启动重复上班闹钟"
+        android:background="#ff0000"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/set_repeat_alarm2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="设置重复下班闹钟：2"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Button android:id="@+id/button_repeat_alarm2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="启动重复下班闹钟"
+        android:background="#ff0000"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/set_once_alarm1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="设置单次闹钟A：1"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <Button android:id="@+id/button_once_alarm1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="启动单次闹钟A"
+        android:background="#ff0000"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/set_once_alarm2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="设置单次闹钟B：2"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <Button android:id="@+id/button_once_alarm2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="启动单次闹钟B"
+        android:background="#ff0000"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/instruction_text0"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="重复闹钟:工作日响铃，周末不响铃\n重复上班闹钟:上班时间前20分钟随机响铃\n重复下班闹钟:下班时间后20分钟随机响铃\n单次闹钟:按设置时间准时响铃"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
